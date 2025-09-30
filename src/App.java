@@ -51,11 +51,13 @@
  */
 public class App {
     // You will MODIFY THIS ONE METHOD across tasks 1–5. Do not create new methods.
-    public static void processScore() {
-
-    }
+    public static int processScore(int x) {
+     return x+3;
+    } 
 
     public static void main(String[] args) {
+        processScore(15); 
+        
         // B- range
         // System.out.println("Task 1:");
         // processScore(); // should PRINT 100
@@ -67,16 +69,16 @@ public class App {
 
         // B+ range
         // System.out.println("Task 3:");
-        // int s1 = processScore(7);   // expect 10
-        // int s2 = processScore(15);  // expect 18
-        // System.out.println(s1);
-        // System.out.println(s2);
+     // int s1 = processScore(7);   // expect 10          
+     // int s2 = processScore(15);  // expect 18
+     //  System.out.println(s1);
+     // System.out.println(s2);
 
         // A range
-        // System.out.println("Task 4:");
-        // System.out.println(processScore(-5));   // -1 (invalid)
-        // System.out.println(processScore(120));  // -1 (invalid)
-        // System.out.println(processScore(50));   // 53
+        System.out.println("Task 4:");
+        System.out.println(processScore(-5));   // -1 (invalid)
+        System.out.println(processScore(120));  // -1 (invalid)
+        System.out.println(processScore(50));   // 53
 
         // A+ range
         // System.out.println("Task 5:");
